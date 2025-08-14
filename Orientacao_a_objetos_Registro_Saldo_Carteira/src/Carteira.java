@@ -46,8 +46,12 @@ public class Carteira {
                 "Saldo: " + String.format("%.2f", saldo) + "\n";
     }
 
-    public void depositarSaldo(double valor) {
-        this.saldo += valor;
+    public boolean depositarSaldo(double valor) {
+        if (valor > 0) {
+            this.saldo += valor;
+            return true;
+        }
+        return false;
     }
 
     public boolean sacarSaldo(double valor) {

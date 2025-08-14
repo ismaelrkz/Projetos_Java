@@ -22,7 +22,11 @@ public class SistemaFin {
                 case 2:
                     System.out.println("Digite o valor a ser depositado:");
                     double valorDeposito = teclado.nextDouble();
-                    titularPrincipal.depositarSaldo(valorDeposito);
+                    if (titularPrincipal.depositarSaldo(valorDeposito)) {
+                        System.out.println("Valor depositado com sucesso!");
+                    } else{
+                        System.out.println("Valor incompatível!");
+                    }
                     break;
                 case 3:
                     System.out.println("Digite o valor a ser sacado:");
