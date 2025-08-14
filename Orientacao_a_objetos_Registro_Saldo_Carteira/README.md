@@ -49,3 +49,10 @@ São usados para aplicar regras de negócio e manter a integridade dos dados.
 
 - SistemaFin.java → Contém o método `main` para execução do programa.
 - Carteira.java → Classe que define atributos, construtor, getters, setters e métodos.
+
+---
+
+## Documentação Complementar
+
+Para um estudo mais detalhado sobre os conceitos de POO e exemplos adicionais, acesse o documento completo no Notion:  
+[Documentação de POO no Notion](https://www.notion.so/Orientacao_a_objetos_Registro_Saldo_Carteira-24cf4d816bcb806e80e1dc13007a7f4a?source=copy_link)
