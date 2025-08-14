@@ -1,7 +1,12 @@
 # Projeto Orientação a Objetos em Java
 
-Este projeto foi desenvolvido com o objetivo de praticar e demonstrar conceitos fundamentais de **Programação Orientada a Objetos (POO)** aplicados em Java.  
-A implementação inclui **criação de classes, atributos, construtores, getters, setters e métodos** para manipular dados de objetos de forma controlada.
+Este projeto tem como objetivo demonstrar na prática conceitos de **Programação Orientada a Objetos (POO)** em Java.  
+O código implementa um **sistema financeiro simplificado**, onde é possível:
+
+- Criar uma carteira para um cliente, definindo **nome, CPF e saldo**.
+- **Exibir os dados da carteira**.
+- **Depositar ou sacar saldo**, com validação de valores.
+- Manter o controle de dados do objeto de forma segura usando **encapsulamento**.
 
 ---
 
@@ -27,7 +32,8 @@ Método especial executado na criação de um objeto, usado para inicializar seu
 Neste projeto, o construtor recebe parâmetros e atribui valores aos atributos.
 
 ### 4. Encapsulamento
-Os atributos são privados e só podem ser acessados ou modificados por meio de **getters** e **setters**, garantindo controle e segurança.
+Os atributos são privados e não podem ser acessados diretamente de fora da classe.
+Eles podem ser acessados ou modificados de forma controlada por meio de getters, setters ou métodos específicos da classe, garantindo segurança e permitindo aplicar regras de negócio.
 
 ### 5. Getters e Setters
 - **Getter**: retorna o valor de um atributo (uso de `return` para entregar o valor).
@@ -43,4 +49,3 @@ São usados para aplicar regras de negócio e manter a integridade dos dados.
 
 - SistemaFin.java → Contém o método `main` para execução do programa.
 - Carteira.java → Classe que define atributos, construtor, getters, setters e métodos.
-
