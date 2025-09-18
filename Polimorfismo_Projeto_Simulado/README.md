@@ -78,6 +78,24 @@ Exemplo do que ocorre em tempo de execução:
 
 ---
 
+## Decisões de Design
+
+Neste projeto, **não foram utilizados getters e setters** por uma decisão de simplicidade e clareza de código.  
+Como o objetivo principal é **demonstrar o conceito de Polimorfismo**, optou-se por acessar os atributos diretamente dentro das classes e subclasses.
+
+### Motivos da Escolha
+
+- **Foco didático:** O propósito é ensinar como o polimorfismo funciona, sem sobrecarregar o código com estruturas adicionais que poderiam desviar a atenção do conceito principal.
+- **Imutabilidade lógica:** As questões são criadas uma única vez e não precisam ser alteradas durante a execução do programa, tornando desnecessário o uso de setters.
+- **Código mais enxuto:** Evitar getters e setters torna o código mais curto e direto, facilitando a leitura para iniciantes.
+- **Sem necessidade de encapsulamento complexo:** Como este é um projeto simples e controlado, não há risco de uso incorreto dos atributos fora da classe.
+
+> 💡 **Observação:**  
+> Em sistemas maiores e de produção, recomenda-se utilizar **encapsulamento** com getters e setters,  
+> pois isso melhora a segurança, a manutenibilidade e permite validações no momento de leitura ou escrita dos atributos.
+
+---
+
 ## Documentação Complementar
 
 Para um estudo mais detalhado sobre os conceitos de **Polimorfismo** e exemplos adicionais, acesse o documento completo no Notion:  
