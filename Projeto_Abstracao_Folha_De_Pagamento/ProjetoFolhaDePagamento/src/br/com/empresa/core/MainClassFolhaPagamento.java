@@ -1,9 +1,9 @@
-package br.com.empresa.userinterface;
+package br.com.empresa.core;
 
-import br.com.empresa.core.ChiefTechnologyOfficer;
-import br.com.empresa.core.Developer;
-import br.com.empresa.core.Funcionario;
-import br.com.empresa.core.TechLead;
+import br.com.empresa.userinterface.ChiefTechnologyOfficer;
+import br.com.empresa.userinterface.Developer;
+import br.com.empresa.userinterface.Funcionario;
+import br.com.empresa.userinterface.TechLead;
 
 public class MainClassFolhaPagamento {
     public static void main(String[] args) {

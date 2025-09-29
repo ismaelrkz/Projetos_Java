@@ -1,4 +1,4 @@
-package br.com.empresa.core;
+package br.com.empresa.userinterface;
 
 public class ChiefTechnologyOfficer extends Funcionario {
 
